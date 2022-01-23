@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Neonderthaw&family=Oswald:wght@200;300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.continer {
+    width: 1120px;
+    background: #1A73E8;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 25px 0px;
+    color: white;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 25px 0px;
+    color: white;
+}
+
+.listbar ul {
+    list-style: none;
+}
+
+
+
+.listbar ul li {
+    display: block;
+    float: left;
+    padding: 24px 32px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.listbar ul li a {
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 4px 18px;
+    border-radius: 5px;
+    text-transform: capitalize
+}
+
+.listbar ul li a:hover {
+    background: white;
+    color: black;
+}
+
+li.light a {
+    background: white !important;
+    color: orangered !important;
+}
+
+a.btn button {
+    font-size: 20px;
+    padding: 10px 23px;
+    border: none;
+    margin-top: 16px;
+    background: hotpink;
+    border-radius: 50px;
+}
+
+a.btn button:hover {
+    background: pink;
+}
+
+.romming {
+    width: 1120px;
+    background: #EAF1F1;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+}
+
+.hedinfo {
+    width: 529px;
+    margin-top: 70px;
+    float: left;
+}
+
+.hedinfo h1 {
+    font-size: 57px;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+.hedinfo p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-family: arial;
+    line-height: 26px;
+}
+
+.create {
+    width: 239px;
+
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.create a {
+    text-decoration: none;
+    background: orangered;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.create a:hover {
+    background: #514d4d;
+    color: white;
+}
+
+.floatrigt {
+    width: 570px;
+    float: right;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.floatrigt img {
+    width: 100%;
+}
+
+
+.freesite {
+    width: 300px;
+    background: orange;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 3px;
+}
+
+.freesite a {
+    text-decoration: none;
+    font-size: 19px;
+}
+
+i.fas.fa-arrow-right {
+    cursor: pointer;
+}
+
+
+
+.romming.for {
+    background-color: #3B516B;
+}
+
+
+.makein {
+    width: 710px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.makein h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.makein p {
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+    color: antiquewhite;
+    font-family: sans-serif;
+    line-height: 35px;
+}
+
+.imgbaleft {
+    width: 500px;
+    float: left;
+    border: 1px solid black;
+    margin-top: 60px;
+}
+
+.imgbaleft img {
+    width: 100%;
+}
+
+.imgbaleft {
+    width: 550px;
+    float: left;
+    border: 1px solid black;
+    margin-top: 60px;
+}
+
+.imgbaleft img {
+    width: 100%;
+}
+
+.infobarright {
+    width: 552px;
+    float: left;
+    margin-top: 39px;
+    margin-left: 16px;
+}
+
+.infobarright h1 {
+    width: 400px;
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+
+.infobarright p {
+    width: 425px;
+    text-align: justify;
+    font-family: 'Oswald';
+    margin-bottom: 25px;
+}
+
+.conertt {
+    width: 170px;
+    background-color: orangered;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 0px;
+}
+
+.conertt a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.romming.color {
+    background-color:black;
+    overflow: hidden;
+    padding-bottom: 0px;
+}
+
+.lasterbar {
+    width: 529px;
+    margin: auto;
+}
+
+.lasterbar h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.lasterbar p {
+    font-size: 17px;
+    font-family: sans-serif;
+    color: navajowhite;
+}
+
+.lasterbar span {
+    display: block;
+    text-align: center;
+    margin-top: 9px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.iconsbar {}
+
+.iconsbar {
+    width: 500px;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+}
+
+
+.atty {
+    font-family: 'Oswald';
+    width: 200px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 18px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.hty {
+    width: 400px;
+    position: relative;
+    bottom: 0px;
+    float: right;
+}
+
+.hty ul {
+    list-style: none;
+    text-align: center;
+}
+
+
+
+.hty ul li a {
+    text-decoration: none;
+    float: left;
+    padding: 57px 25px;
+    text-transform: capitalize;
+    color: white;
+}
+
+ul.pptr {
+    list-style: none;
+    width: 500px;
+    overflow: hidden;
+    text-align: center !important;
+    margin-left: 107px;
+    margin-top: 10px;
+}
+
+ul.pptr li {
+    float: left;
+    padding: 0px 6px;
+    margin-left: 14px;
+    padding: 10px;
+    font-size: 11px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+ul.pptr li a {
+    font-size: 25px;
+    color: white;
+}
